@@ -65,8 +65,22 @@
 }
 
 
-@media (max-width: 600px) {
+@media  (max-width: 426px) {
     .container{
-    padding: 10px;
-}
+        padding: 10px;
+    }
+    .search-bar{
+        flex-direction: column;
+        gap:5px;
+    }
+    .sun{
+        height: 7rem;
+        margin-top: 10px;
+    }
+    .temprature{
+        color: white;
+        font-size: 50px;
+        line-height: 1;
+    }
+
 }
