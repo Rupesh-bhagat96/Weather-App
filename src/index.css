@@ -16,3 +16,8 @@
   overflow-x: hidden;
 }
 
+@media  (max-width: 426px) {
+  .app{
+    height: 100vh;
+  }
+}
